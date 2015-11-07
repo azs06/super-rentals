@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/app/components/new-city.js" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/components/new-rental.js" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/components/rental-title.js" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/components/update-rental.js" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/models/city.js" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/models/rental.js" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/router.js" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/routes/city.js" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/routes/index.js" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/routes/rental.js" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/templates/about.hbs" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/templates/application.hbs" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/templates/city.hbs" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/templates/components/city-details.hbs" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/templates/components/nav-bar.hbs" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/templates/components/new-city.hbs" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/templates/components/new-rental.hbs" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/templates/components/rental-details.hbs" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/templates/components/rental-title.hbs" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/templates/components/update-city.hbs" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/templates/components/update-rental.hbs" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/templates/contact.hbs" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/templates/index.hbs" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/templates/rental.hbs" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/templates/rentals.hbs" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/config/environment.js" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ember-cli-build.js" charset="UTF-8" />
+  </component>
+</project>

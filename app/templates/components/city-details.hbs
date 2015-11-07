@@ -1,0 +1,10 @@
+<p>{{city.name}}</p>
+<p>{{city.attractions}}</p>
+<p>{{city.country}}</p>
+<hr/>
+Rentals available in {{city.name}}:
+<ul class="list-unstyled">
+    {{#each city.rentals as |rental|}}
+    <li>{{#link-to 'rental' rental.id}}{{rental.owner}}'s {{rental.type}}{{/link-to}}</li>
+    {{/each}}
+</ul>

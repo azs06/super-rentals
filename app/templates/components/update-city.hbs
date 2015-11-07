@@ -1,0 +1,23 @@
+{{#if isUpdateEnabled}}
+<h1>Update City</h1>
+<div>
+    <form>
+        <div class="form-group">
+            <label for="name">Name</label>
+            {{input value=updatedcity.name id="city" class="form-control"}}
+        </div>
+        <div class="form-group">
+            <label for="attractions">Attractions</label>
+            {{input value=updatedcity.attractions id="attractions" class="form-control"}}
+        </div>
+        <div class="form-group">
+            <label for="Country">Country</label>
+            {{input value=updatedcity.country id="country" class="form-control"}}
+        </div>
+        <button class="btn btn-primary btn-sm" type="submit" {{action 'update' updatedcity}}>Update</button>
+        <button class="btn btn-warning btn-sm" type="submit" {{action 'cancelUpdate' updatedcity}}>Cancel</button>
+    </form>
+</div>
+{{else}}
+<button class="btn btn-success btn-sm" {{action 'enableUpdate'}}>Update</button>
+{{/if}}

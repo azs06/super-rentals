@@ -4,6 +4,16 @@ module.exports = function(environment) {
   var ENV = {
     modulePrefix: 'super-rentals',
     environment: environment,
+    contentSecurityPolicy: {
+        'default-src': "'none'",
+        'script-src': "'self' 'unsafe-eval' https://*.firebaseio.com https://*.googleapis.com https://*.gstatic.com",
+        'font-src': "'self' https://*.gstatic.com",
+        'connect-src': "'self' wss://*.firebaseio.com",
+        'img-src': "'self' *",
+        'style-src': "'self' 'unsafe-inline' https://*.googleapis.com",
+        'frame-src': "'self' https://*.firebaseio.com"
+      },
+    firebase: 'https://glaring-fire-9178.firebaseio.com/',
     baseURL: '/',
     locationType: 'auto',
     EmberENV: {

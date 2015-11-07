@@ -1,0 +1,32 @@
+<div class="jumbotron">
+    <div class="container">
+        <h1>Welcome to SuperRentals</h1>
+        <p>Today is: {{current-date}}</p>
+        <p>We hope you find exactly what you're looking for in a place to stay.</p>
+        <p>{{#link-to 'about' class="btn btn-primary"}}Learn More{{/link-to}}</p>
+    </div>
+</div>
+<div class="container">
+    <div class="col-sm-6">
+     <h2>Rentals</h2>
+    <ul class="list-group">
+      {{#each model.rentals as |rental|}}
+        <li class="list-group-item">{{rental-title rental=rental update="update" destroyRental="destroyRental"}}</li>
+      {{/each}}
+    </ul>
+    </div>
+    <div class="col-sm-6">
+        <h2>Cities</h2>
+        <ul class="list-group">
+          {{#each model.cities as |city|}}
+              <li class="list-group-item">
+            {{#link-to 'city' city.id}}{{city.name}}{{/link-to}}
+              <span><button class="btn btn-danger btn-sm" {{action 'deleteCity' city}}>Delete</button></span>
+                  {{update-city updatedcity=city updateCity="updateCity"}}
+
+              </li>
+          {{/each}}
+        </ul>
+      {{new-city action="saveCity"}}
+    </div>
+</div>

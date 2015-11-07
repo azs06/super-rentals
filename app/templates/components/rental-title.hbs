@@ -1,0 +1,6 @@
+{{#link-to 'rental' rental.id}}{{rental.owner}}'s {{rental.type}} in {{rental.city.name}}{{/link-to}}
+ <span><button class="btn btn-sm btn-danger" {{action 'deleteRental' rental}}>Delete</button></span>
+<p class="list-group-item-text">
+{{update-rental rental=rental update="update"}}
+</p>
+
